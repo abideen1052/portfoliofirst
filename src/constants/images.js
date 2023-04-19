@@ -34,6 +34,8 @@ import bolt from '../assets/bolt.png';
 import nb from '../assets/nb.png';
 import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
+import firebase from '../assets/firebase.png'
+import react_header from '../assets/react_header.png'
 
 const images = {
   email,
@@ -69,6 +71,8 @@ const images = {
   nb,
   skype,
   spotify,
+  firebase,
+  react_header,
 };
 
 export default images
