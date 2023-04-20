@@ -18,10 +18,11 @@ import sass from '../assets/sass.png';
 import typescript from '../assets/typescript.png';
 import vue from '../assets/vue.png';
 
-import about01 from '../assets/about01.png';
-import about02 from '../assets/about02.png';
-import about03 from '../assets/about03.png';
-import about04 from '../assets/about04.png';
+import about_web from '../assets/about_web.png'
+import about_mob from '../assets/about_mob2.png'
+import about_ui from '../assets/about_ui.png'
+import about_backend from '../assets/about_backend.png'
+
 
 import profile from '../assets/profile.png';
 import circle from '../assets/circle.svg';
@@ -57,10 +58,6 @@ const images = {
   sass,
   typescript,
   vue,
-  about01,
-  about02,
-  about03,
-  about04,
   profile,
   circle,
   logo,
@@ -73,6 +70,10 @@ const images = {
   spotify,
   firebase,
   react_header,
+  about_web,
+  about_mob,
+  about_ui,
+  about_backend
 };
 
 export default images

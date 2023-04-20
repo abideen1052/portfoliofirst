@@ -5,10 +5,10 @@ import './About.scss'
 
 
 const about = [
-  {title:'Web Development',description:'Crafting innovative web experiences with precision and creativity to bring your ideas to life.', imgUrl: images.about01},
-  {title:'Mobile Development',description:'Crafting mobile apps that engage and enhance user experiences, bringing your vision to millions.', imgUrl:images.about02},
-  {title:'UI/UX',description:'Designing delightful interfaces that balance aesthetics and usability for seamless digital experiences.', imgUrl:images.about03},
-  {title:'Web Animation',description:'Bringing websites to life with captivating animations that leave lasting impressions on audiences.', imgUrl:images.about04},
+  {title:'Web Development',description:'Crafting innovative web experiences with precision and creativity to bring your ideas to life.', imgUrl: images.about_web},
+  {title:'Mobile Development',description:'Crafting mobile apps that engage and enhance user experiences, bringing your vision to millions.', imgUrl:images.about_mob},
+  {title:'UI/UX',description:'Designing delightful interfaces that balance aesthetics and usability for seamless digital experiences.', imgUrl:images.about_ui},
+  {title:'Backend Development',description:'Reliable backend development for optimal performance, scalability, and security, transforming user experiences.', imgUrl:images.about_backend},
 ];
 
 function About() {
