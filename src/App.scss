@@ -46,7 +46,7 @@
     align-items: flex-end;
   
     p {
-      text-transform: uppercase;
+      //text-transform: uppercase;
       color: var(--black-color);
     }
   }
@@ -102,7 +102,6 @@
     justify-content: flex-end;
     align-items: center;
     flex-direction: column;
-  
     padding: 1rem;
   
     div {
@@ -112,6 +111,7 @@
       background-color: var(--white-color);
       margin: 0.25rem 0;
       border: 1px solid var(--lightGray-color);
+      transition-duration: 0.25s;
   
       display: flex;
       justify-content: center;
@@ -128,9 +128,24 @@
       &:hover {
         background-color: var(--secondary-color);
         border-color: var(--secondary-color);
+        animation: shake 1s;
   
         svg {
           color: var(--white-color);
+        }
+      }
+      @keyframes shake {
+        10%{
+          transform: rotate(15deg);
+        }
+        20%{
+          transform: rotate(-15deg);
+        }
+        30%{
+          transform: rotate(15deg);
+        }
+        40%{
+          transform: rotate(-15deg);
         }
       }
   
