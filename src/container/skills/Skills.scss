@@ -10,6 +10,7 @@
 
     display: flex;
     flex-direction: row;
+    
 
     @media screen and (max-width : 900px) {
         width: 100%;
@@ -23,6 +24,7 @@
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: flex-start;
+    
 
     margin-right: 5rem;
 
@@ -36,6 +38,7 @@
 .app__skills-item {
     flex-direction: column;
     text-align: center;
+    
 
     margin: 1rem;
     transition: all 0.3s ease-in-out;
@@ -44,11 +47,12 @@
         width: 90px;
         height: 90px;
         border-radius: 50%;
-        background-color: #fff;
+        background-color: #edf2f8;
 
         img {
             width: 50%;
             height: 50%;
+            
         }
 
         &:hover {
