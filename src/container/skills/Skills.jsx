@@ -8,14 +8,17 @@ import './Skills.scss'
 const skill = [
   { name: 'React', imgUrl: images.react, },
   { name: 'Flutter', imgUrl: images.flutter, },
-  { name: 'Firebase', imgUrl: images.firebase, },
+  { name: 'JavaScript', imgUrl: images.javascript, },
   { name: 'HTML', imgUrl: images.html, },
+  { name: 'CSS', imgUrl: images.css, },
+  { name: 'Firebase', imgUrl: images.firebase, },
+ 
 ];
 const experience = [
   { name: 'Technical Assistant',company:'Hashint Technologies Pvt.Ltd', description: 'I worked as a technical assistant at Hashit Technologies.',year:'2020'},
-  { name: 'Technical Assistant',company:'Hashint Technologies Pvt.Ltd', description: 'I worked as a technical assistant at Hashit Technologies.',year:'2020'},
-  { name: 'Technical Assistant',company:'Hashint Technologies Pvt.Ltd', description: 'I worked as a technical assistant at Hashit Technologies.',year:'2020'},
-  { name: 'Technical Assistant',company:'Hashint Technologies Pvt.Ltd', description: 'I worked as a technical assistant at Hashit Technologies.',year:'2020'},
+  // { name: 'Technical Assistant',company:'Hashint Technologies Pvt.Ltd', description: 'I worked as a technical assistant at Hashit Technologies.',year:'2020'},
+  // { name: 'Technical Assistant',company:'Hashint Technologies Pvt.Ltd', description: 'I worked as a technical assistant at Hashit Technologies.',year:'2020'},
+  // { name: 'Technical Assistant',company:'Hashint Technologies Pvt.Ltd', description: 'I worked as a technical assistant at Hashit Technologies.',year:'2020'},
 ];
 function Skills() {
   const [experiences, setExperience] = useState([])

@@ -7,10 +7,10 @@ import './Work.scss'
 
 
 const work = [
-  { title: 'Web Development', description: 'Crafting innovative web experiences with precision and creativity to bring your ideas to life.', imgUrl: images.about_web, projectLink: 'https://github.com/', tags: ['UI/UX', 'All'] },
-  { title: 'Mobile Development', description: 'Crafting mobile apps that engage and enhance user experiences, bringing your vision to millions.', imgUrl: images.about_mob, projectLink: 'https://github.com/', tags: ['Mobile App', 'All'] },
-  { title: 'UI/UX', description: 'Designing delightful interfaces that balance aesthetics and usability for seamless digital experiences.', imgUrl: images.about_ui, projectLink: 'https://github.com/', tags: ['Web App', 'All'] },
-  { title: 'Backend Development', description: 'Reliable backend development for optimal performance, scalability, and security, transforming user experiences.', imgUrl: images.about_backend, projectLink: 'https://github.com/', tags: ['UI/UX', 'All'] },
+  { title: 'Web Development', description: 'Crafting innovative web experiences with precision and creativity to bring your ideas to life.', imgUrl: images.about_web, projectLink: 'https://github.com/abideen1052', tags: ['UI/UX', 'All'] },
+  { title: 'Mobile Development', description: 'Crafting mobile apps that engage and enhance user experiences, bringing your vision to millions.', imgUrl: images.about_mob, projectLink: 'https://github.com/abideen1052', tags: ['Mobile App', 'All'] },
+  { title: 'UI/UX', description: 'Designing delightful interfaces that balance aesthetics and usability for seamless digital experiences.', imgUrl: images.about_ui, projectLink: 'https://github.com/abideen1052', tags: ['Web App', 'All'] },
+ // { title: 'Backend Development', description: 'Reliable backend development for optimal performance, scalability, and security, transforming user experiences.', imgUrl: images.about_backend, projectLink: 'https://github.com/', tags: ['UI/UX', 'All'] },
 ];
 
 function Work() {
